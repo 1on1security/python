@@ -1,6 +1,6 @@
 ## qrDecoder.py
 For a given QR code image, decode the URL and submit to VirusTotal for safety rating.<br>
-Usage: python script.py path/to/your/qr_code.png<br>
+Usage: python script.py path/to/your/qr_code.png<p>
 
 Sample QR codes included.<br>
 
