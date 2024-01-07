@@ -2,6 +2,9 @@
 For a given QR code image, decode the URL and submit to VirusTotal for safety rating.<br>
 Usage: python script.py path/to/your/qr_code.png<p>
 
+Create .evn file with contents:<br>
+VIRUSTOTAL_API_KEY=YOUR_API_KEY_GOES_HERE<p?>
+
 Consult requirements.txt for a list of required Python libraries.
 Sample QR codes included.<br>
 
