@@ -6,8 +6,14 @@ import sys
 import requests
 import cv2
 from pyzbar.pyzbar import decode
+import os
+from dotenv import load_dotenv
 
-VIRUSTOTAL_API_KEY = "YOUR_VIRUSTOTAL_API_KEY_HERE"
+# Load environment variables from the .env file
+load_dotenv()
+
+# Get the VirusTotal API key from the environment variable
+VIRUSTOTAL_API_KEY = os.getenv("VIRUSTOTAL_API_KEY")
 
 def decode_qr_code(image_path):
     image = cv2.imread(image_path)
