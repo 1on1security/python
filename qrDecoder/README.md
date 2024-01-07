@@ -9,6 +9,7 @@ Consult requirements.txt for a list of required Python libraries.
 Sample QR codes included.<br>
 
 ```
+├── dustindecker.png    Sample expected to be clean URL https://dustindecker.com
 ├── README.md           This file.
 ├── knownDirty.png      Sample with known malicious URL http://hackingloading157 dot ddns dot net
 ├── knownDirty2.png     Sample with known malicious URL http://xxfg118 dot ru
